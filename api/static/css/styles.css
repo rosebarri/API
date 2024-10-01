@@ -1,0 +1,77 @@
+/* styles.css */
+
+/* تعيين خط افتراضي و لون خلفية */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8d8e8; /* لون خلفية وردي فاتح */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* تنسيق العنوان الرئيسي */
+h1 {
+    color: #e91e63; /* لون وردي غامق */
+    text-align: center;
+    padding: 30px 0;
+    font-size: 2.5em; /* زيادة حجم الخط */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* إضافة ظل للنص */
+}
+
+/* تنسيق النموذج */
+form {
+    max-width: 500px; /* تقليل العرض */
+    margin: 30px auto; /* إضافة مسافة أعلى وأسفل النموذج */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* خلفية بيضاء مع شفافية */
+    border-radius: 12px; /* زوايا أكثر انسيابية */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* ظل أكثر وضوحًا */
+    border: 3px solid #e91e63; /* إطار بلون وردي غامق */
+}
+
+/* تنسيق حقول الإدخال */
+input[type="text"] {
+    width: calc(100% - 24px); /* حساب العرض مع الحشوة والحدود */
+    padding: 12px; /* زيادة الحشوة */
+    margin-bottom: 15px; /* زيادة المسافة بين الحقول */
+    border: 2px solid #0000FF; /* إطار أزرق */
+    border-radius: 6px; /* زوايا أكثر انسيابية */
+    box-sizing: border-box;
+}
+
+/* تنسيق الأزرار */
+button {
+    background-color: #e91e63; /* لون زر وردي غامق */
+    color: white;
+    border: 2px solid #0000FF; /* إطار أزرق */
+    padding: 16px 0; /* زيادة حشوة الرأس والذيل */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; /* زيادة حجم الخط */
+    margin: 15px 0; /* زيادة المسافة بين الأزرار */
+    border-radius: 6px; /* زوايا أكثر انسيابية */
+    cursor: pointer;
+    width: 100%; /* جعل الزر يأخذ العرض الكامل للنموذج */
+    transition: background-color 0.3s, transform 0.3s; /* تأثير انتقال سلس */
+}
+
+/* تغيير لون الزر عند مرور الماوس عليه */
+button:hover {
+    background-color: #c2185b; /* لون زر وردي أغمق عند المرور */
+    border: 2px solid black; /* إطار أسود */
+    transform: scale(1.05); /* تكبير الزر عند المرور */
+}
+
+/* تنسيق منطقة العرض للنتائج */
+#result {
+    text-align: center;
+    padding: 25px;
+    font-size: 20px; /* زيادة حجم الخط */
+    background-color: rgba(255, 255, 255, 0.9); /* خلفية بيضاء مع شفافية */
+    border: 2px solid #0000FF; /* إطار أزرق */
+    border-radius: 6px;
+    margin: 30px auto; /* إضافة مسافة أعلى وأسفل */
+    max-width: 500px; /* تقليل العرض */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* ظل أكثر وضوحًا */
+}
